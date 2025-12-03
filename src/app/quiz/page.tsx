@@ -432,10 +432,10 @@ export default function QuizPage() {
                 <p className="text-xl md:text-2xl text-gray-600 mb-12 leading-relaxed">{step.subheadline}</p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href="tel:+18666470621"
+                    href="tel:+18445234502"
                     className="px-10 py-4 bg-[#6B8E7F] text-white text-lg font-semibold rounded-xl hover:bg-[#4A6B62] transition transform hover:scale-105"
                   >
-                    Call Now: (866) 647-0621
+                    Call Now: (844) 523-4502
                   </a>
                   <a
                     href="/"

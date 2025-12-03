@@ -23,8 +23,8 @@ export function Header() {
             <svg className="w-4 h-4 text-[#6B8E7F]" fill="currentColor" viewBox="0 0 20 20">
               <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773c.418 1.585 1.607 2.775 3.191 3.193l.773-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a2 2 0 01-2 2h-1C9.716 19 3 12.284 3 4V3z" />
             </svg>
-            <a href="tel:(866) 647-0621" className="text-xs sm:text-sm font-semibold hover:text-[#6B8E7F] transition-colors">
-              (866) 647-0621
+            <a href="tel:(844) 523-4502" className="text-xs sm:text-sm font-semibold hover:text-[#6B8E7F] transition-colors">
+              (844) 523-4502
             </a>
           </div>
 
@@ -122,10 +122,10 @@ export function Header() {
             ))}
             <div className="border-t border-[#E8DDD0] pt-3 mt-3">
               <a
-                href="tel:(866) 647-0621"
+                href="tel:(844) 523-4502"
                 className="block px-4 py-2 text-sm font-semibold text-[#6B8E7F] hover:bg-white rounded-lg transition-colors"
               >
-                📞 (866) 647-0621
+                📞 (844) 523-4502
               </a>
               <a
                 href="/quiz"

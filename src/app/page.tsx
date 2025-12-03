@@ -486,7 +486,7 @@ export default function Home() {
                 </p>
                 <p className="flex items-center gap-2">
                   <CheckmarkIcon width={20} height={20} className="text-[#9B8B7E] flex-shrink-0" />
-                  Located in Connersville, Indiana
+                  Serving clients nationwide with personalized care
                 </p>
               </div>
             </div>

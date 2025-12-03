@@ -20,9 +20,9 @@ const defaultNavLinks = [
 ];
 
 export function Footer({
-  address = '450 Erie Avenue, Connersville, IN 47331',
-  phone = '(866) 647-0621',
-  phoneLocal = '(317) 854-4559',
+  address,
+  phone = '(844) 523-4502',
+  phoneLocal,
   email = 'info@crossroadsin.com',
   navLinks = defaultNavLinks,
 }: FooterProps) {
@@ -118,20 +118,10 @@ export function Footer({
             <ul className="space-y-3 text-sm text-gray-400">
               <li>
                 <div className="hover:text-[#B4A896] transition-colors block">
-                  <span className="font-semibold text-white">Admissions Toll-Free</span>
+                  <span className="font-semibold text-white">Admissions</span>
                   <div>
                     <a href={`tel:${phone.replace(/\D/g, '')}`} className="hover:text-[#B4A896]">
                       {phone}
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="hover:text-[#B4A896] transition-colors block">
-                  <span className="font-semibold text-white">Local</span>
-                  <div>
-                    <a href={`tel:${phoneLocal.replace(/\D/g, '')}`} className="hover:text-[#B4A896]">
-                      {phoneLocal}
                     </a>
                   </div>
                 </div>
@@ -144,12 +134,6 @@ export function Footer({
                   <span className="font-semibold text-white">Email</span>
                   <div className="break-all">{email}</div>
                 </a>
-              </li>
-              <li>
-                <div>
-                  <span className="font-semibold text-white block mb-1">Address</span>
-                  <div className="text-sm">{address}</div>
-                </div>
               </li>
             </ul>
           </motion.div>
