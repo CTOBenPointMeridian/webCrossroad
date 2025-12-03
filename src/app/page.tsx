@@ -37,7 +37,7 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <HeroSection
-        label="Top-Rated Mental Health Treatment in Indiana"
+        label="Top-Rated Mental Health Treatment"
         title="Customized Mental Health & Wellness Redefined"
         subtitle=""
         description=""
@@ -56,7 +56,7 @@ export default function Home() {
               Compassionate Care Rooted in Innovation & Individualized Support
             </h2>
             <p className="text-xl text-[#6B8E7F] font-semibold mb-6">
-              Innovative Mental Health Treatment Services in Indiana
+              Innovative Mental Health Treatment Services
             </p>
           </div>
 
@@ -65,7 +65,7 @@ export default function Home() {
             {/* Introduction */}
             <div className="prose max-w-none">
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                Finding the right mental health treatment services in Indiana can feel overwhelming—especially when you're trying to locate a team that genuinely understands the complexity of mental health challenges. At Crossroads Healing Center, we provide accessible, personalized, and research-backed mental health care that empowers individuals to regain stability, clarity, and hope.
+                Finding the right mental health treatment services can feel overwhelming—especially when you're trying to locate a team that genuinely understands the complexity of mental health challenges. At Crossroads Healing Center, we provide accessible, personalized, and research-backed mental health care that empowers individuals to regain stability, clarity, and hope.
               </p>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 Our programs support adults navigating conditions such as depression, anxiety, bipolar disorder, trauma-related disorders, personality disorders, and co-occurring behavioral health concerns.
@@ -133,7 +133,7 @@ export default function Home() {
                 Why Choose Mental Health Treatment at Crossroads Healing Center?
               </h3>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                Crossroads Healing Center is one of Indiana's premier providers of mental health treatment services, offering a unique blend of science-driven interventions and deeply personalized care.
+                Crossroads Healing Center is a premier provider of mental health treatment services, offering a unique blend of science-driven interventions and deeply personalized care.
               </p>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 We recognize that each person's experience is shaped by a dynamic combination of biological, psychological, and environmental factors—which is why no two treatment plans should ever look the same.
@@ -163,7 +163,7 @@ export default function Home() {
             {/* Facility Section with Images */}
             <div>
               <h3 className="text-2xl font-bold text-[#0f2a24] mb-6">
-                Our Expansive Mental Health Facility in Indiana
+                Our Expansive Mental Health Facility
               </h3>
               <p className="text-gray-700 text-lg leading-relaxed mb-8">
                 At Crossroads Healing Center, wellness is woven into every part of our facility. We've created a space where individuals can heal in comfort and confidence. Our modern campus includes:
@@ -232,7 +232,7 @@ export default function Home() {
             {/* Continuum of Care */}
             <div>
               <h3 className="text-2xl font-bold text-[#0f2a24] mb-6">
-                Comprehensive Mental Health Programs in Indiana
+                Comprehensive Mental Health Programs
               </h3>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 We offer a full spectrum of mental health treatment services designed to meet clients at every stage of their healing journey. Whether you need highly structured daily support or a more flexible therapeutic schedule, our programs evolve with your progress and adapt to your unique needs.
@@ -296,19 +296,19 @@ export default function Home() {
                   id: 'ocd',
                   title: 'OCD',
                   image: '/ocd.webp',
-                  description: 'Choose our OCD treatment center in Indiana today for a path to long-term healing & wellness.'
+                  description: 'Choose our OCD treatment program today for a path to long-term healing & wellness.'
                 },
                 {
                   id: 'anxiety',
                   title: 'Anxiety',
                   image: '/anxiety.webp',
-                  description: 'Our inpatient anxiety treatment programs in Indiana offer you a personalized experience in wellness.'
+                  description: 'Our inpatient anxiety treatment programs offer you a personalized experience in wellness.'
                 },
                 {
                   id: 'depression',
                   title: 'Depression',
                   image: '/Depresion.webp',
-                  description: 'Find out how our depression treatment center in Indiana can help you find long-term healing.'
+                  description: 'Find out how our depression treatment program can help you find long-term healing.'
                 },
                 {
                   id: 'bipolar',
@@ -320,19 +320,19 @@ export default function Home() {
                   id: 'bpd',
                   title: 'Borderline Personality Disorder',
                   image: '/borderline.webp',
-                  description: 'The borderline personality disorder treatment programs in Indiana at Crossroads Healing Center provides you with a path forward.'
+                  description: 'The borderline personality disorder treatment programs at Crossroads Healing Center provides you with a path forward.'
                 },
                 {
                   id: 'schizophrenia',
                   title: 'Schizophrenia',
                   image: '/schitzophrenia.webp',
-                  description: 'Our schizophrenia treatment programs in Indiana offer you a safe space to achieve wellness & recovery.'
+                  description: 'Our schizophrenia treatment programs offer you a safe space to achieve wellness & recovery.'
                 },
                 {
                   id: 'ptsd',
                   title: 'PTSD & Trauma',
                   image: '/ptsd.webp',
-                  description: 'Our PTSD treatment program in Indiana offers you the latest advancements in mental health treatment to find long-term solutions for trauma.'
+                  description: 'Our PTSD treatment program offers you the latest advancements in mental health treatment to find long-term solutions for trauma.'
                 },
               ].map((condition) => (
                 <div
@@ -382,7 +382,7 @@ export default function Home() {
       {/* Specialized Modalities */}
       <SpecializedFeaturesSection
         title="An Experience in Wellness"
-        description="Reset Your Mind. At Crossroads Healing Centers, we provide a world-class, personalized experience in mental health treatment at our residential campus in Indiana. On over 14 acres of secluded land, you can find the healing you deserve."
+        description="Reset Your Mind. At Crossroads Healing Centers, we provide a world-class, personalized experience in mental health treatment at our residential campus. On over 14 acres of secluded land, you can find the healing you deserve."
         features={[
           { icon: LightIcon, label: 'Red Light Therapy' },
           { icon: VRIcon, label: 'Virtual Reality Therapy' },
@@ -444,7 +444,7 @@ export default function Home() {
           {
             question: 'How does your individualized treatment plans work for each client?',
             answer:
-              'Crossroads Healing Center is a mental health treatment center in Indiana offering the latest advancements in mental health & dual-diagnosis treatment. Through our unique combination of evidence-based therapies, client-centered programming, and trauma-informed care, we offer our clients and their loved ones a path to long-term wellness solutions rooted in individualized care.',
+              'Crossroads Healing Center is a mental health treatment center offering the latest advancements in mental health & dual-diagnosis treatment. Through our unique combination of evidence-based therapies, client-centered programming, and trauma-informed care, we offer our clients and their loved ones a path to long-term wellness solutions rooted in individualized care.',
           },
           {
             question: 'What kind of therapies and advanced treatments do you offer at your facility?',
@@ -460,10 +460,10 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-                Crossroads Healing Centers of Indiana
+                Crossroads Healing Center
               </h2>
               <p className="text-lg text-[#B4A896] font-semibold mb-4">
-                #1 Rated Mental Health Treatment in Indiana
+                #1 Rated Mental Health Treatment Provider
               </p>
               <p className="text-xl font-semibold text-white mb-6">
                 Request a 100% Confidential Callback
